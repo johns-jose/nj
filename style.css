@@ -1,0 +1,365 @@
+.body{}
+
+.announsment-bar{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.announsment-bar p{
+    color: #fff;
+    height: 10px;
+    text-align: center
+}
+.announsment-bar a{
+    color: #fff;
+}
+.menu{
+    display: flex;
+    background-color: #fff;
+}
+.menu-l,.menu-m,.menu-r{
+    flex: 1;
+    height: 100px;
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(78, 73, 73);
+    cursor: pointer;
+    
+}
+.menu-1img{
+    height: 15px;
+    width: 20px;
+    cursor: pointer;
+}
+.menu-r img{
+    height: 15px;
+    width: 15px;
+    color: antiquewhite;
+}
+.menu-m{
+    color: black;
+    font-size: 20px;
+    font-weight: 100px;
+}
+.gallery{
+    width: 80%;
+    height: 500px;
+}
+.gallery img{
+    padding-left: 80px;
+    width: 100%;
+    height:500px ;
+}
+.content1{
+    height: 200px;
+}
+.content1 h1{
+text-align: center;
+white-space: pre-wrap;
+font-size: 50px;
+font-weight: 600;
+color: #333;
+font-style: normal
+}
+.content1 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444;
+    font-style: normal;
+}
+.butten{
+display: flex;
+height: 1oopx;
+padding-left:1%;
+
+}
+.butten-in{
+    margin-left:43% ;
+    padding-top: 20px;
+    width: 10%;
+    height: 40px;
+    background-color: #253550;
+    text-align: center;
+    color: #fff;
+    cursor:pointer;
+}
+.butten-in a{
+    color: #fff;
+    text-decoration:none;
+}
+.para1{
+    text-align:center;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+.para1 a{
+    text-decoration: none;
+    color: #444;
+}
+.para1 a:hover{
+    color:#999 ;
+}
+.hiw{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: normal;
+}
+.photo1-para1{
+    display: flex;
+    width: 100%;
+    height: 280px;
+
+}
+.photo1-para1-l{
+    margin-left: 15PX;
+    width: 40%;
+    height: 280px;
+    background-color: chocolate;
+}
+.photo1-para1-r{
+    width: 60%;
+    height: 280px;
+    background-color: #fff;
+}
+.photo1-para1-l img{
+    height: 280px;
+}
+.photo1-para1-r-heading{
+    font-family: proxima-nova;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    padding-left: 30px;
+    
+}
+.photo1-para1-r p{
+    padding-left: 30px;
+    font-family: proxima-nova;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.photo2-para2{
+    display:flex;
+    width: 100%;
+    height: 280px;
+    
+}
+
+.photo2-para2-l{
+    margin-left: 15PX;
+    width: 40%;
+    height: 280px;
+    background-color: chocolate;
+}
+.photo2-para2-l img{
+    height: 280px;
+}
+.photo2-para2-r{
+    width: 60%;
+    height: 280px;
+    background-color:#fff;
+}
+.photo2-para2-r-heading{
+    font-family: proxima-nova;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    padding-left: 30px;
+    
+}
+.photo2-para2-r p{
+    padding-left: 30px;
+    font-family: proxima-nova;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.photo3-para3{
+    display:flex;
+    width: 100%;
+    height: 280px;
+    
+}
+
+.photo3-para3-l{
+    margin-left: 15PX;
+    width: 40%;
+    height: 280px;
+    background-color: chocolate;
+}
+.photo3-para3-l img{
+    height: 280px;
+}
+.photo3-para3-r{
+    width: 60%;
+    height: 280px;
+    background-color:#fff;
+}
+.photo3-para3-r-heading{
+    font-family: proxima-nova;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    padding-left: 30px;
+    
+}
+.photo3-para3-r p{
+    padding-left: 30px;
+    font-family: proxima-nova;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.get-started-button{
+    display: flex;
+    height: 1oopx;
+    padding-left:1%;
+    
+ }
+.get-started-butten-in{
+    margin-left:43% ;
+    padding-top: 20px;
+    width: 14%;
+    height: 40px;
+    background-color: #253550;
+    text-align: center;
+    color: #fff;
+    cursor:pointer;
+}
+.get-started-butten-in a{
+    color: #fff;
+    text-decoration:none;
+}
+.insta{
+    text-align: center;
+    font-family: abril-titling;
+    font-size: 45px;
+    font-weight: 500;
+    font-style: normal;
+}
+.insta-mail{
+    text-align: center;
+    font-family: proxima-nova;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #414;
+}
+.media{
+    text-align: center;
+    font-family: abril-titling;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: normal;
+    color: #333;
+}
+.enquire-p{
+    text-align: center;
+    font-style: italic;
+}
+.enquire-p img{
+   vertical-align:middle; 
+   padding-left: 25px;
+}
+.media-icons{
+    display: flex;
+    margin-left: 10%;
+    width: 80%;
+    height: 120PX;
+
+}
+.media-icons img{
+    flex: 1;
+    height: 120px;
+}
+.logo7{
+    margin-left: 40%;
+}
+.media-below-pic{
+    width: 90%;
+    height: 500px;
+
+}
+.media-below-pic img{
+    margin-left: 42px;
+    width: 100%;
+    height: 500px;
+}
+.full{
+    text-align: center;
+    font-family: abril-titling;
+    font-size: 45px;
+    font-weight: 500;
+    font-style: normal;
+}
+.full-b-p{
+    text-align: center;
+    font-family: proxima-nova;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+.mirror-img{
+ margin-left: 25%;
+}
+.insta-feed-header{
+    background-color:#006699;
+
+}
+.insta-feed-header img{
+padding-left: 33%;
+
+}
+.slide-image-bottom{
+    display: flex;
+    width: 100%;
+    height: 213px;
+}
+.slide-image-bottom img{
+    height: 213px;
+    width: 100%;
+}
+.s-media-icon{
+    margin-left: 48%;
+    height: 20px;
+}
+
+.s-media-icon img{
+    height: 20px;
+    cursor: pointer;
+}
+.b-list{
+    margin-top:100px ;
+    display: flex;
+    justify-content: space-around;
+}
+.colum li{
+    list-style: none;
+    line-height: 50px;
+    text-align: center;
+    color: #999;
+}.footer{
+    margin-left: 36%;
+}
+.footer a{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #999;
+}
+.footer-b{
+    text-align: center;
+    color: #999;
+}
+
+
+
+
+
+
+    
+    
